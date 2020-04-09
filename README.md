@@ -2,12 +2,12 @@
 
 --------------------------------------------------------------------------------
 
-> [RLCode](https://rlcode.github.io)팀이 직접 만든 강화학습 예제들을 모아놓은 Repo 입니다. [영문 (English)](https://github.com/rlcode/reinforcement-learning)
+> 파이썬과 케라스로 배우는 강화학습 개정판의 코드입니다.
 >
-> Maintainers - [이웅원](https://github.com/dnddnjs), [이영무](https://github.com/zzing0907), [양혁렬](https://github.com/Hyeokreal), [이의령](https://github.com/wooridle), [김건우](https://github.com/keon)
+> Maintainers - [이웅원](https://github.com/dnddnjs), [양혁렬](https://github.com/Hyeokreal)
 
-[Pull Request](https://github.com/rlcode/reinforcement-learning-kr/pulls)는 언제든 환영입니다.
-문제나 버그, 혹은 궁금한 사항이 있으면 [이슈](https://github.com/rlcode/reinforcement-learning-kr/issues)에 글을 남겨주세요.
+[Pull Request](https://github.com/rlcode/reinforcement-learning-kr-v2/pulls)는 언제든 환영입니다.
+문제나 버그, 혹은 궁금한 사항이 있으면 [이슈](https://github.com/rlcode/reinforcement-learning-kr-v2/issues)에 글을 남겨주세요.
 
 
 ## 필요한 라이브러리들 (Dependencies)
