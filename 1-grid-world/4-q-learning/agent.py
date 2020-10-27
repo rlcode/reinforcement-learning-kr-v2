@@ -9,7 +9,7 @@ class QLearningAgent:
         self.actions = actions
         self.step_size = 0.01
         self.discount_factor = 0.9
-        self.epsilon = 0.9
+        self.epsilon = 0.1
         self.q_table = defaultdict(lambda: [0.0, 0.0, 0.0, 0.0])
 
     # <s, a, r, s'> 샘플로부터 큐함수 업데이트
@@ -58,7 +58,7 @@ if __name__ == "__main__":
             agent.learn(state, action, reward, next_state)
 
             state = next_state
-            
+
             # 모든 큐함수를 화면에 표시
             env.print_value_all(agent.q_table)
 
