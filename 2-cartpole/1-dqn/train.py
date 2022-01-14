@@ -15,8 +15,8 @@ from tensorflow.keras.initializers import RandomUniform
 class DQN(tf.keras.Model):
     def __init__(self, action_size):
         super(DQN, self).__init__()
-        self.fc1 = Dense(24, activation='relu')
-        self.fc2 = Dense(24, activation='relu')
+        self.fc1 = Dense(24, activation='relu') # node 개수가 24개
+        self.fc2 = Dense(24, activation='relu') 
         self.fc_out = Dense(action_size,
                             kernel_initializer=RandomUniform(-1e-3, 1e-3))
 
